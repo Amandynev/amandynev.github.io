@@ -35,4 +35,9 @@
   border-style: inherite;
 }
 
+@media(max-width: 620px) {
+  .name {
+    font-size:30px;
 
+    }
+  }
