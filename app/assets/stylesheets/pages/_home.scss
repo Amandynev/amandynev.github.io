@@ -1,1 +1,36 @@
 // Specific CSS for your home-page
+.container-home{
+  margin: 0 auto;
+  width: 70vw;
+}
+
+#border{
+margin-top:50px;
+border-bottom: 1px solid;
+opacity: 0.2;
+}
+.profile{
+  margin-top: 100px;
+  display:start;
+  justify-content:center;
+  text-align: center;
+  align-item:center;
+}
+
+.profile-details{
+  margin-top: 100px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.container-description{
+  width:200px;
+  text-justify: auto;
+}
+
+.text-description{
+ width:200px;
+  text-justify: auto;
+}
