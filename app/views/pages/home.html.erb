@@ -297,20 +297,83 @@
 <!---------------------Skills -------------------------->
 <div class="row">
   <div class="col-md-6 mt-5">
-    <div class="skills d-flex justify-content-between">
-      <span>Ruby on Rails</span>
+      <% @skills.each do |skill| %>
+    <div class="skills d-flex justify-content-between ">
+      <%= skill.name %>
       <div class="stars">
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
-        <span><i class="fas fa-star"></i></span>
+      <% if skill.name == "Ruby"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
         <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "CSS(3)"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "HTML(5)"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "Adobe Photoshop"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "Macintosh"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "Ruby On Rails"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "Macintosh"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "Command line interface"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "MVC pattern"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <% elsif skill.name == "iwork"%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+      <%else%>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i id="icone-color"class="fas fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+        <span><i class="far fa-star"></i></span>
+     <% end %>
       </div>
+  </div>
+    <% end %>
     </div>
   </div>
 </div>
-
-
 
 
 </div>
