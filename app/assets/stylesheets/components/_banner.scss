@@ -1,5 +1,5 @@
 .banner-home {
-  background-image: asset-url("banner-surf.jpg");
+  background-image: asset-url("banner-surf.jpg"), linear-gradient (rgba(0,0,0,0.3), rgba(0,0,0,0.3));
   background-size: cover;
   background-position: center;
   padding: 150px 0;
@@ -7,6 +7,7 @@
   width: 100vw;
   position: relative;
 }
+
 
 .title{
 }
