@@ -27,8 +27,18 @@ import "bootstrap";
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
+import { loadDynamicBannerText } from '../components/banner';
+import { loadDynamicProfileText } from '../components/home';
+import { loadDynamicExperienceText } from '../components/home';
+import { loadDynamicSkillText } from '../components/home';
+import { loadDynamicProjectText } from '../components/home';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
+  loadDynamicBannerText();
+  loadDynamicProfileText();
+  loadDynamicExperienceText();
+  loadDynamicSkillText();
+  loadDynamicProjectText();
 });

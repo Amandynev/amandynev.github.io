@@ -108,6 +108,10 @@ span.word {
   color:white;
 }
 
+.typed-cursor{
+  display:none;
+  }
+
 
 @media(max-width: 620px) {
   .profile-details {
@@ -117,6 +121,6 @@ span.word {
     font-size: 25px;
   .container-home {
     font-size: 14px !important;
-  }
+    }
   }
   }
