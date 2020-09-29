@@ -20,7 +20,7 @@ export {loadDynamicExperienceText};
 
 const loadDynamicSkillText = () => {
   new Typed('#skill-typed-text', {
-    strings: ["Compétences"],
+    strings: ["Skills"],
     typeSpeed: 80,
     loop: false
     });
