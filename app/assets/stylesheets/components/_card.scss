@@ -25,21 +25,20 @@
 }
 
 
-
 @media(max-width: 620px) {
 
   .card-project {
     height: 150px;
     width:200px;
-     display:start;
-  justify-content:center;
-  text-align: center;
-  align-item:center;
+    display:start;
+    justify-content:center;
+    text-align: center;
+    align-item:center;
 
   }
   .card-project:hover {
-  background-image: asset-url("skifind.png");
-  transform:scale(1.1);
+    background-image: asset-url("skifind.png");
+    transform:scale(1.1);
 
 }
 

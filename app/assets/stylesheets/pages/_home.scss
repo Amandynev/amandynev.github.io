@@ -36,7 +36,7 @@ width: 70vw;
 }
 
 .details-me{
-    text-align:justify;
+    text-align:center;
   }
 
 #title-h3{
@@ -93,10 +93,12 @@ span.word {
   }
 }
 
-
 .card-project{
   margin: 0 auto;
+}
 
+a{
+  text-decoration: none !important;
 }
 
 @media(max-width: 620px) {
