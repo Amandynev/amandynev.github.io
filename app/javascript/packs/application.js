@@ -33,6 +33,14 @@ import { loadDynamicExperienceText } from '../components/home';
 import { loadDynamicSkillText } from '../components/home';
 import { loadDynamicProjectText } from '../components/home';
 
+const btn = document.querySelector('.toggle_btn')
+const nav = document.querySelector('.navbar-nav')
+
+  btn.addEventListener('click', (event)=>{
+  console.log(event);
+  nav.classList.toggle('nav_open');
+ });
+
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
@@ -41,4 +49,5 @@ document.addEventListener('turbolinks:load', () => {
   loadDynamicExperienceText();
   loadDynamicSkillText();
   loadDynamicProjectText();
+
 });

@@ -1,0 +1,58 @@
+.toggle_btn {
+  position:relative;
+  height:30px;
+  width:30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+.toggle_btn span {
+  height: 3px;
+  background-color: black;
+  width:100%;
+  position: absolute;
+  top:20px;
+  left: 0;
+}
+
+.toggle_btn span:before {
+  content:"";
+  height: 3px;
+  background-color: black;
+  width:100%;
+  position: absolute;
+  top:-10px;
+  left: 0;
+}
+
+.toggle_btn span:after {
+  content:"";
+  height: 3px;
+  background-color: black;
+  width:100%;
+  position: absolute;
+  top:10px;
+  left: 0;
+}
+
+nav .navbar{
+  background:none;
+}
+
+.navbar-nav{
+  margin-right: -200px;
+  transition-duration: 0.5s;
+}
+.nav_open {
+
+  margin-right: 0;
+  transition-duration: 0.5s;
+}
+
+@media(max-width: 620px) {
+.toggle_btn {
+   position:relative;
+  height:30px;
+  width:30px;
+  cursor: pointer;
+}
+}

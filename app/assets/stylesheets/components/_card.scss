@@ -20,8 +20,10 @@
 .card-project:hover {
   background-image: asset-url("skifind.png");
   transform:scale(1.1);
+}
 
-
+.skifind:hover {
+  display:none;
 }
 
 
