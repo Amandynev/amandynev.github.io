@@ -11,7 +11,7 @@ export {loadDynamicProfileText};
 
 const loadDynamicExperienceText = () => {
   new Typed('#experience-typed-text', {
-    strings: ["Experiences"],
+    strings: ["Expériences"],
     typeSpeed: 80,
     loop: false
     });
@@ -20,7 +20,7 @@ export {loadDynamicExperienceText};
 
 const loadDynamicSkillText = () => {
   new Typed('#skill-typed-text', {
-    strings: ["Skills"],
+    strings: ["Compétences"],
     typeSpeed: 80,
     loop: false
     });
