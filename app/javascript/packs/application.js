@@ -28,11 +28,12 @@ import "bootstrap";
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 import { loadDynamicBannerText } from '../components/banner';
-import { loadDynamicProfileText } from '../components/home';
+import { loadDynamicProfileText, } from '../components/home';
 import { loadDynamicExperienceText } from '../components/home';
 import { loadDynamicSkillText } from '../components/home';
 import { loadDynamicProjectText } from '../components/home';
 import { toggleClick } from '../components/toggle';
+import { femaleClick, briefClick, cogsClick, laptopClick } from '../components/link';
 
 
 document.addEventListener('turbolinks:load', () => {
@@ -44,5 +45,9 @@ document.addEventListener('turbolinks:load', () => {
   loadDynamicSkillText();
   loadDynamicProjectText();
   toggleClick();
+  femaleClick();
+  briefClick();
+  cogsClick();
+  laptopClick();
 
 });

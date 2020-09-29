@@ -6,6 +6,7 @@ const loadDynamicProfileText = () => {
     typeSpeed: 80,
     loop: false
     });
+
 }
 export {loadDynamicProfileText};
 
@@ -35,3 +36,5 @@ const loadDynamicProjectText = () => {
     });
 }
 export {loadDynamicProjectText};
+
+
