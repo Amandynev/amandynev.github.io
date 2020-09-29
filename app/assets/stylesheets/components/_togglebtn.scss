@@ -3,7 +3,6 @@
   height:30px;
   width:30px;
   cursor: pointer;
-  margin-left: 40px;
 }
 .toggle_btn span {
   height: 3px;
@@ -34,12 +33,8 @@
   left: 0;
 }
 
-nav .navbar{
-  background:none;
-}
-
 .navbar-nav{
-  margin-right: -200px;
+  margin-right: -300px;
   transition-duration: 0.5s;
 }
 .nav_open {
@@ -50,5 +45,9 @@ nav .navbar{
 
 
 @media(max-width: 620px) {
+.buttontog{
+  margin:0;
+  text-align:center
+}
 
 }
