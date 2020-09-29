@@ -18,14 +18,11 @@
 }
 
 .card-project:hover {
+  // background-image: asset-url("skifind.png");
   background-image: asset-url("skifind.png");
   transform:scale(1.1);
+  border-radius: 50% 20% / 10% 40%;
 }
-
-.skifind:hover {
-  display:none;
-}
-
 
 @media(max-width: 620px) {
 

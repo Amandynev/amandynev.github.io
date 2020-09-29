@@ -33,8 +33,8 @@ import { loadDynamicExperienceText } from '../components/home';
 import { loadDynamicSkillText } from '../components/home';
 import { loadDynamicProjectText } from '../components/home';
 
-const btn = document.querySelector('.toggle_btn')
-const nav = document.querySelector('.navbar-nav')
+let btn = document.querySelector('.toggle_btn')
+let nav = document.querySelector('.navbar-nav')
 
   btn.addEventListener('click', (event)=>{
   console.log(event);
