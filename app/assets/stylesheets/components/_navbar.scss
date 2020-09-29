@@ -18,25 +18,13 @@ li {
 }
 
 nav{
-  right:10px;
-  margin-left:20px;
+margin-top: 20px;
+  margin-right:20px;
   width:150px;
   height:400px;
   background-color: rgba(53, 134, 172, 0.9);
 }
 
-nav .wrapper ul
-
-// .icon{
-//   background-color:#3485AA;
-//   height:35px;
-//   width:35px;
-//   border-radius:50%;
-//   display:flex;
-//   justify-content:center;
-//   align-item:center !important;
-
-// }
 .nav-item{
   padding-left: 20px;
 }
@@ -44,5 +32,6 @@ nav .wrapper ul
 transform: scale(1.5);
 color:white;
 }
+
 
 
