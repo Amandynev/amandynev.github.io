@@ -97,9 +97,17 @@ span.word {
   margin: 0 auto;
 }
 
-a{
-  text-decoration: none !important;
+.list-inline-item{
+  height:25px;
+  width: 25px;
+  background:#3485AA;
+  border-radius: 50% 20% / 10% 40%;
 }
+.list-inline-item:hover {
+  transform: scale(1.5);
+  color:white;
+}
+
 
 @media(max-width: 620px) {
   .profile-details {
