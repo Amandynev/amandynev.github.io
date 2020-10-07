@@ -26,8 +26,8 @@ wordpress =Skill.create!(name: "Wordpress")
 
 mac =Skill.create!(name: "Macintosh")
 figma =Skill.create!(name: "Figma")
-indesign =Skill.create!(name: "Adobe Indesign")
-photoshop =Skill.create!(name: "Adobe Photoshop")
+indesign =Skill.create!(name: "Indesign")
+photoshop =Skill.create!(name: "Photoshop")
 microsoft = Skill.create!(name: "Microsoft Office")
 iwork = Skill.create!(name: "iWork")
 
