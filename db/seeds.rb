@@ -21,6 +21,7 @@ js =Skill.create!(name: "JavaScript(ES6)")
 github =Skill.create!(name: "Github")
 heroku =Skill.create!(name: "Heroku")
 mvc =Skill.create!(name: "MVC pattern")
+active =Skill.create!(name: "Active Record")
 rails =Skill.create!(name: "Ruby On Rails")
 wordpress =Skill.create!(name: "Wordpress")
 
