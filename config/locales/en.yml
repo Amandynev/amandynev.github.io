@@ -16,10 +16,17 @@ en:
                Laundry setup with receptionists and house keeping, minibar items in rooms.
                Daily followed cleaning.
                Reception managing, welcoming guests from around the world."
-  hotel_com: "Social networks manager"
+  hotel_com: " Wordpress website manager"
+  social_net: "Social networks manager"
   graphic: "Graphic Designer"
   news: "Mailchimp newsletters"
-
-
-
-
+  com_intern: "In-house communication"
+  com_intern_text: "Documents for minibar and laundy items, rooms'book in rooms, house rules for staffs..."
+  pub: "Advertising development"
+  pub_text: "Ad insert in locals magazines, advert TV, advert radio, banner on locals taxis"
+  event: " Event planning"
+  agences: "Online travel agencies management"
+  profil_hotel: "setup and update hotel's profiles"
+  profil_hotel_text: "like pictures, text, allotments, sales"
+  resto_bar: "event planning, checking stocks, setup and followed bartender software, cashier, barmaid and servie"
+  thailand: " Thailand"
