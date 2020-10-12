@@ -93,6 +93,30 @@ span.word {
   }
 }
 
+span.word-one {
+  background-image: linear-gradient(315deg,#3485AA, #09BC8A);
+
+  background-repeat: no-repeat;
+  background-size: 100% 0.9em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  &:hover {
+    background-size: 100% 88%;
+  }
+}
+
+span.word-two {
+  background-image: linear-gradient(315deg,#09BC8A,#3485AA);
+
+  background-repeat: no-repeat;
+  background-size: 100% 0.9em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  &:hover {
+    background-size: 100% 88%;
+  }
+}
+
 .card-project{
   margin: 0 auto;
 }
@@ -119,8 +143,9 @@ span.word {
     }
   #title-h3{
     font-size: 25px;
+  }
   .container-home {
     font-size: 14px !important;
+    width:90vw;
     }
-  }
   }
