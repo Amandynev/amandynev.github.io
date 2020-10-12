@@ -3,7 +3,7 @@ import I18n from 'i18n-js';
 
 const loadDynamicBannerText = () => {
   new Typed('#banner-typed-text', {
-    strings: ["Amandyne Verdonck", I18n.t('.banner')],
+    strings: ["Amandyne Verdonck", "Developer web"],
     typeSpeed: 80,
     loop: true
   });
