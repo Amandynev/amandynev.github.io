@@ -8,8 +8,11 @@
 .icone-flag{
   width:35px;
   height:700;
+  opacity: 0.8;
 
-
+.flag:hover{
+  transform: scale(1.5);
+}
 
 }
 .container-experience{
