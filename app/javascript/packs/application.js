@@ -34,11 +34,9 @@ import { loadDynamicSkillText } from '../components/home';
 import { loadDynamicProjectText } from '../components/home';
 import { toggleClick } from '../components/toggle';
 import { femaleClick, briefClick, cogsClick, laptopClick } from '../components/link';
+import I18n from "i18n-js";
 
-
-document.addEventListener('turbolinks:load', () => {
-  // Call your functions here, e.g:
-  // initSelect2();
+function test() {
   loadDynamicBannerText();
   loadDynamicProfileText();
   loadDynamicExperienceText();
@@ -49,5 +47,13 @@ document.addEventListener('turbolinks:load', () => {
   briefClick();
   cogsClick();
   laptopClick();
+}
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your functions here, e.g:
+  // initSelect2();
+  global.I18n = I18n;
+  setTimeout(test, 1000)
+
 
 });

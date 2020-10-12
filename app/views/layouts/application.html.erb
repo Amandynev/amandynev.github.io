@@ -27,8 +27,6 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
     <!-- Hotjar Tracking Code for http://www.amandyneverdonck.com -->
-    <%= javascript_include_tag "i18n" %>
-    <%= javascript_include_tag "translations", skip_pipeline: true %>
     <script>
         (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -38,6 +36,19 @@
             r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <script type="text/javascript">
+    function waitForElement(){
+      if(typeof I18n !== "undefined"){
+        I18n.default_locale = "<%= I18n.default_locale %>";
+        I18n.locale = "<%= I18n.locale %>";
+        I18n.translations = <%== I18n::JS.filtered_translations.to_json %>;
+      }
+      else{
+        setTimeout(waitForElement, 10);
+      }
+    }
+    waitForElement();
     </script>
   </head>
   <body>
