@@ -1,11 +1,11 @@
 fr:
-  title: "Créative Ruby On Rails Développeuse Web"
-  who: "Qui suis-je ?"
-  bio: "Hi :) fraîchement sortie de ma formation de Développeuse Web Fullstack au Wagon de lille (Batch #437),
+  title:  "Créative Ruby On Rails Développeuse Web"
+  who:  "Qui suis-je ?"
+  bio:  "Hi :) fraîchement sortie de ma formation de Développeuse Web Fullstack au Wagon de lille (Batch #437),
             je recherche un poste de Développeuse Front-End.
             Actuellement, outre l'infographie, je développe des applications web."
-  hobby: "Passe-temps"
-  age: "Âge"
+  hobby:  "Passe-temps"
+  age:  "Âge"
   year: "29 ans"
   location: "Localisation"
   abroad: " À l'étranger"
