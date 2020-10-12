@@ -243,20 +243,16 @@
   </div>
   <!---------------------carreer -------------------------->
 <hr id="border">
-<h3 id="title-h3-carrer">Études</h3>
+<h3 id="title-h3-carrer"><%= t('education') %></h3>
    <div class="carreer row">
     <div class="year col-md-4">
           <h4 class="pb-4"> <strong>LE WAGON </strong></h4>
-          <p>July 2020 - Sept 2020</p>
+          <p><%= t('year_wagon') %></p>
     </div>
     <div class="text-description col-md-8">
-      <div class="pb-4"><h4> Développeuse Web Fullstack </h4>
+      <div class="pb-4"><h4><%= t('position_wagon') %> </h4>
       </div>
-      <p>A 9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6,
-            SQL, git, GitHub, Heroku and Ruby on Rails.Designed, implemented and shipped to
-            production a clone of AirBnB and a Rails prototype.
-
-      <p>
+      <p> <%= t('position_wagon_text') %></p>
       <span id="icone-color"><i id="icone-color" class="fas fa-map-marker-alt"></i>  Lille, Hauts de France</span>
       <hr>
       <hr>
@@ -266,12 +262,12 @@
    <div class="carreer row">
     <div class="year col-md-4">
           <h4 class="pb-4"><strong>ISEFAC</strong></h4>
-          <p>Sept 2010 - Juin 2012</p>
+          <p><%= t('year_isefac') %></p>
     </div>
     <div class="text-description col-md-8">
-      <div class="pb-4"><h4>BTS communication des entreprises</h4>
+      <div class="pb-4"><h4><%= t('position_isefac') %></h4>
       </div>
-      <p>Créations de projets en PAO (maquettes sur photoshop et indesign)<p>
+      <p><%= t('position_isefac_text') %><p>
       <span id="icone-color"><i id="icone-color" class="fas fa-map-marker-alt"></i>  Lille, Hauts de France</span>
       <hr>
       <hr>
@@ -281,10 +277,10 @@
    <div class="carreer row">
     <div class="year col-md-4">
           <h4 class="pb-4"> <strong>UNIVERTSITE CATHOLIQUE DE LILLE</strong></h4>
-          <p>Sept 2009 - Mars 2010</p>
+          <p><%= t('year_lacatho') %></p>
     </div>
     <div class="text-description col-md-8">
-      <div class="pb-4"><h4>Licence Media Culture et Communication</h4>
+      <div class="pb-4"><h4><%= t('position_lacatho') %></h4>
       </div>
       <p><p>
       <span id="icone-color"><i id="icone-color" class="fas fa-map-marker-alt"></i>  Lille, Hauts de France</span>
@@ -293,16 +289,15 @@
     </div>
   </div>
 
-
   <div class="carreer row">
     <div class="year col-md-4">
           <h4 class="pb-4"><strong>LYCÉE SAINT REMI</strong></h4>
-          <p>Sept 2007 - Juin 2009</p>
+          <p><%= t('year_remi') %></p>
     </div>
     <div class="text-description col-md-8">
-      <div class="pb-4"><h4>Baccalauréat STG</h4>
-      </div>
-      <p>option mercatique<p>
+       <div class="pb-4"><h4><%= t('position_remi') %></h4>
+    </div>
+      <p><%= t('position_remi_text') %><p>
       <span id="icone-color"><i id="icone-color" class="fas fa-map-marker-alt"></i>  Roubaix, Hauts de France</span>
       <hr>
       <hr>
@@ -312,12 +307,12 @@
    <div class="carreer row">
     <div class="year col-md-4">
           <h4 class="pb-4"><strong>UFCV FORMATION</strong></h4>
-          <p>Sept 2007 - Juin 2009</p>
+          <p><%= t('year_ufcv') %></p>
     </div>
     <div class="text-description col-md-8">
       <div class="pb-4"><h4>BAFA animatrice</h4>
       </div>
-      <p>qualification surveillant de baignade<p>
+      <p><%= t('position_ufcv') %><p>
     <span id="icone-color"><i id="icone-color" class="fas fa-map-marker-alt"></i>  Croix et Wasquehal, Hauts de France</span>
       <hr>
       <hr>
@@ -396,14 +391,14 @@
 </div>
 
     <div class="center-text">
-      <h2 id="title-h2">Langues</h2>
+      <h2 id="title-h2"><%= t('langues') %></h2>
     </div>
     <hr id="border mt-3">
 
     <div class="row">
       <div class="col-md-6 mt-5">
         <div class="skills d-flex justify-content-between" >
-          <span>Français</span>
+          <span><%= t('french') %></span>
           <div class="stars">
             <span><i id="icone-color"class="fas fa-star"></i></span>
             <span><i id="icone-color"class="fas fa-star"></i></span>
@@ -418,7 +413,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="skills d-flex justify-content-between" >
-     <span>Anglais (Courant)</span>
+     <span><%= t('english') %></span>
           <div class="stars">
             <span><i id="icone-color"class="fas fa-star"></i></span>
             <span><i id="icone-color"class="fas fa-star"></i></span>
@@ -432,7 +427,7 @@
     <div class="row">
       <div class="col-md-6">
         <div class="skills d-flex justify-content-between" >
-     <span>Thai (Quotidien)</span>
+     <span><%= t('thai') %></span>
           <div class="stars">
             <span><i id="icone-color"class="fas fa-star"></i></span>
             <span><i id="icone-color"class="fas fa-star"></i></span>

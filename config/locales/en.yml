@@ -66,6 +66,26 @@ en:
   year_vach_two: "Dec 2020 - Aug 2020"
   position_vach_two: "Commercial real estate consultant"
   position_vach_two_text: "Rental of commercial premises, offices in Lille métropole. Marketing of the goods with adapted means of communication."
+  education: "Education"
+  year_wagon: "July 2020 - Sept 2020"
+  position_wagon: "Web Developer Fullstack"
+  position_wagon_text: "A 9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails.Designed, implemented and shipped to production a clone of AirBnB and a Rails prototype."
+  year_isefac: "Sept 2010 - June 2012"
+  position_isefac: "Higher National Diploma"
+  position_isefac_text: "Graphic design((mock-ups, prototype on photoshop and indesign)"
+  year_lacatho: "Sept 2009 - March 2010"
+  position_lacatho: "Communication bachelor's degree"
+  year_remi: "Sept 2007 - June 2009 "
+  position_remi: "High school diploma"
+  position_remi_text: "Marketing option"
+  year_ufcv: "Sept 2007 - June 2009"
+  position_ufcv: "Lifeguard qualification"
+  langues: "Languages"
+  french: "French(native)"
+  english: "English(intermediate)"
+  thai: "Thai (Beginner)"
+
+
 
 
 
