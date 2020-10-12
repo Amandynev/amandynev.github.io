@@ -1,3 +1,7 @@
 en:
   js:
     banner: "Web developer"
+    profile: "Profile"
+    experience: "Experiences"
+    skill: " Skills"
+    projects: "Projects"

@@ -2,7 +2,7 @@ import Typed from 'typed.js';
 
 const loadDynamicProfileText = () => {
   new Typed('#profile-typed-text', {
-    strings: ["Profil"],
+    strings: [I18n.t('js.profile')],
     typeSpeed: 80,
     loop: false
     });
@@ -12,7 +12,7 @@ export {loadDynamicProfileText};
 
 const loadDynamicExperienceText = () => {
   new Typed('#experience-typed-text', {
-    strings: ["Expériences"],
+    strings: [I18n.t('js.experience')],
     typeSpeed: 80,
     loop: false
     });
@@ -21,7 +21,7 @@ export {loadDynamicExperienceText};
 
 const loadDynamicSkillText = () => {
   new Typed('#skill-typed-text', {
-    strings: ["Acquis"],
+    strings: [I18n.t('js.skill')],
     typeSpeed: 80,
     loop: false
     });
@@ -30,7 +30,7 @@ export {loadDynamicSkillText};
 
 const loadDynamicProjectText = () => {
   new Typed('#project-typed-text', {
-    strings: ["Réalisations"],
+    strings: [I18n.t('js.projects')],
     typeSpeed: 80,
     loop: false
     });
