@@ -1,3 +1,4 @@
+import Typed from 'typed.js';
 let female = document.querySelector('.fa-female')
 let briefcase = document.querySelector('.fa-briefcase')
 let cogs = document.querySelector('.fa-cogs')

@@ -1,2 +1,22 @@
 fr:
   title: "Créative Ruby on rails Développeuse Web"
+  who: "Qui suis-je ?"
+  bio: "Hi :) fraîchement sortie de ma formation de Développeuse Web Fullstack au Wagon de lille (Batch #437),
+            je recherche un poste de Développeuse Front-End.
+            Actuellement, outre l'infographie, je développe des applications web."
+  hobby: "Passe-temps"
+  age: "Âge"
+  year: "29 ans"
+  location: "Localisation"
+  abroad: " À l'étranger"
+  year_access: "Juil 2012 - Nov 2015"
+  position_access: "Responsable marketing, communication et des opérations"
+  hotel: "Hôtel"
+  hotel_text: "management du personnel, réunions.
+              Mise en place de la lingerie avec les réceptionnistes et gouvernantes, stocks minibar en chambre,
+              suivi de l'entretien quotidien.
+              Supervision de la réception, acceuil clients toutes nationalités."
+  hotel_com: "responsable du site internet (wordpress), en relation avec le webmaster."
+  social_net: "Gestion des réseaux sociaux"
+  graphic: "Infographie"
+  news: "Création de newsletters avec MailChimp"
