@@ -30,4 +30,5 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  banner_title: "Web Developer"
+  title: "Creative Ruby On Rails Web Developer"
