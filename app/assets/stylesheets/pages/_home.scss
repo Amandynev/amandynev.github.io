@@ -9,12 +9,9 @@
   width:35px;
   height:700;
   opacity: 0.8;
-
-.flag:hover{
-  transform: scale(1.5);
+  border-radius: 50% 20% / 10% 40%;
 }
 
-}
 .container-experience{
   background-color: #1E1E1E;
   color: white;
@@ -47,6 +44,7 @@ width: 70vw;
 
 .details-me{
     text-align:center;
+    padding-top: 25px;
   }
 
 #title-h3{
