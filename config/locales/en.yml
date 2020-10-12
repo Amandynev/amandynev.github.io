@@ -1,22 +1,17 @@
 en:
-  title:  "Creative Ruby On Rails Web Developer"
-  who:  "Who I am ?"
-  bio:  "Hi :) just attended Fullstack Developer Web training this summer,
-        I am now looking for a new job as Front-End Developer Web. For instance,
-        I am developing web application and I am doing some graphic design."
-  hobby:  "Hobbies"
-  age:  "Age"
+  title: "Creative Ruby On Rails Web Developer"
+  who: "Who I am ?"
+  bio: "Hi :) just attended Fullstack Developer Web training this summer, I am now looking for a new job as Front-End Developer Web. For instance,I am developing web application and I am doing some graphic design."
+  hobby: "Hobbies"
+  age: "Age"
   year: "29 years old"
   location: "Location"
   abroad: "Abroad"
-  year_access:  "July 2012 - Nov 2015"
-  position_access:  "General manager"
-  hotel:  "Hotel"
-  hotel_text: "staff management, meetings.
-               Laundry setup with receptionists and house keeping, minibar items in rooms.
-               Daily followed cleaning.
-               Reception managing, welcoming guests from around the world."
-  hotel_com:  "Wordpress website manager"
+  year_access: "July 2012 - Nov 2015"
+  position_access: "General manager"
+  hotel: "Hotel"
+  hotel_text: "staff management, meetings. Laundry setup with receptionists and house keeping, minibar items in rooms. Daily followed cleaning. Reception managing, welcoming guests from around the world."
+  hotel_com: "Wordpress website manager"
   social_net: "Social networks manager"
   graphic:  "Graphic Designer"
   news: "Mailchimp newsletters"
@@ -43,7 +38,7 @@ en:
   resp_gard:  "Manager"
   text_gard:  "of the kids garden called yeti village"
   resp_activi:  "Management of adventures actitives"
-  text_activ: "like paret sledging,"yourte"night, snowshoeing"
+  text_activ: "like paret sledging,yourte night, snowshoeing"
   transports: "Management of school private transports"
   year_evo_tignes:  "Dec 2016 - April 2017"
   position_evo_tignes:  "Sales assistant and kids'garden manager"
