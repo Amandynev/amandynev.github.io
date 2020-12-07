@@ -467,11 +467,33 @@
       <br>
 
   <!---------------------education------------->
-  <%= link_to "http://www.skifind.fr", class:"link-without-style", :target => "_blank" do %>
-  <div class="card-project d-flex align-item text-center">
-  <div class="skifind">Skifind.fr</div>
+  <div class="d-flex justify-content-around">
+    <div>
+      <h4>skifind.fr</h4>
+      <%= link_to "http://www.skifind.fr", class:"link-without-style", :target => "_blank" do %>
+        <div class="card-project">
+          <div class="features">RUBY ON RAILS</div>
+          <div class="features">ES6</div>
+          <div class="features">SEARCH BAR</div>
+          <div class="features">MAPBOX</div>
+        </div>
+      <% end %>
+    </div>
+    <div>
+      <h4>accessinnpattaya.com</h4>
+      <%= link_to "http://www.accessinnpattaya.com", class:"link-without-style", :target => "_blank" do %>
+        <div class="card-project-access">
+          <div class="features">RUBY ON RAILS/ES6</div>
+          <div class="features">BOOKING SYSTEM</div>
+          <div class="features">PAYPAL/STRIPE</div>
+          <div class="features">MAPBOX</div>
+          <div class="features">POSTMARK</div>
+          <div class="features">SWEETALERT</div>
+          <div class="features">I18n TRANSLATION</div>
+        </div>
+      <% end %>
+    </div>
   </div>
-  <% end %>
   <hr>
   <hr>
 
