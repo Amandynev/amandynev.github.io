@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 .container-home{
   margin: 0 auto;
-  width: 70vw;
+  width: 90vw;
   font-size:17px;
 }
 
@@ -40,6 +40,7 @@ width: 70vw;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  align-items: center;
 }
 
 .details-me{
