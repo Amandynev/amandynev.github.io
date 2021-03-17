@@ -14,16 +14,19 @@ puts "create skills"
 ruby =Skill.create!(name: "Ruby")
 css =Skill.create!(name: "CSS(3)")
 html =Skill.create!(name: "HTML(5)")
+js =Skill.create!(name: "JavaScript(ES6)")
+react =Skill.create!(name: "React & Redux")
 bootstrap =Skill.create!(name: "Bootstrap")
+rails =Skill.create!(name: "Ruby On Rails")
+wordpress =Skill.create!(name: "Wordpress")
 sql =Skill.create!(name: "SQL")
 command =Skill.create!(name: "Command line interface")
-js =Skill.create!(name: "JavaScript(ES6)")
 github =Skill.create!(name: "Github")
 heroku =Skill.create!(name: "Heroku")
 mvc =Skill.create!(name: "MVC pattern")
 active =Skill.create!(name: "Active Record")
-rails =Skill.create!(name: "Ruby On Rails")
-wordpress =Skill.create!(name: "Wordpress")
+
+
 
 mac =Skill.create!(name: "Macintosh")
 figma =Skill.create!(name: "Figma")
